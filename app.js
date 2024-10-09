@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 
         res.send(`
         <h1>🚨 Warning: Your Web Application seems to be Infected! 🚨</h1>
-        <p>Your system may be at risk. This application has been infiltrated by a malicious package designed to steal sensitive information.</p>
+        <p>Your System may be at risk. This application has been infiltrated by a MALACIOUS package designed to steal sensitive information.</p>
         <p><strong>Malicious actions may include:</strong></p>
         <ul>
             <li>Creating unauthorized directories</li>
