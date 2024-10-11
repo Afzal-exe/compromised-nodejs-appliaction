@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
     compromise.attackSystem(logger);
 
     // Log suspicious activity
-    logger.warn(`[ALERT] Malicious activity detected by 'compromise-lib' at ${new Date()}`);
+    logger.warn(`[ALERT] Malicious activity detected by 'infected-lib' at ${new Date()}`);
 
         res.send(`
         <h1>🚨 Warning: Your Web Application seems to be Infected! 🚨</h1>
